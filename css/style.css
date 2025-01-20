@@ -259,7 +259,8 @@ footer textarea {
     flex-direction: column;
     padding: 20px;
   }
-  .footer-column {
+  .footer-column,
+  .footer-row  {
     width: 100%;
   }
   footer input[type="text"],
