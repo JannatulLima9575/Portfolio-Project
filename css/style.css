@@ -252,11 +252,30 @@ footer textarea {
 /* Responsive Part  */
 @media only screen and (max-width: 576px) {
   .skills-container,
-  .resume-container {
+  .resume-container,
+  footer,
+  .banner ,
+  nav,
+  nav > ul,
+  .about-items {
     flex-direction: column;
   }
-  footer {
-    flex-direction: column;
+  nav > ul {
+    gap: 20px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-profile {
+    width: 100%;
+  }
+  footer, .about {
     padding: 20px;
   }
   .footer-column,
