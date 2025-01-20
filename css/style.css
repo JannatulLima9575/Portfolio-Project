@@ -248,3 +248,23 @@ footer textarea {
   letter-spacing: 0%;
   text-align: left;
 }
+
+/* Responsive Part  */
+@media only screen and (max-width: 576px) {
+  .skills-container,
+  .resume-container {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 40px);
+  }
+}
